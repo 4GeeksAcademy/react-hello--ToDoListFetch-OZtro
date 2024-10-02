@@ -1,12 +1,54 @@
-
-/* 
-
-    You can write your own styles here...
+main {
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 5em;
+    color: rgb(196, 104, 104);
+  }
+  
+  .delete-button {
+      border: none;
+      float: right;
+      background: transparent;
+      cursor: pointer;
+    }
     
+    .delete-button .delete-icon {
+      visibility: hidden;
+    }
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+    .delete-button:hover .delete-icon {
+      visibility: visible;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0px auto;
+      padding: 0;
+      
+    }
+    ul li{
+      border-radius: none;
+      
+    }
+  
+    p{
+      padding-left: 1em;
+      padding-bottom: .5em;
+      font-size: 0.8em;
+      color: rgb(163, 163, 163);
+      
+    }
+    .postIt {
+      box-shadow: 1px 20px 25px 11px rgba(179, 179, 179, 0.48);
+      width: 35em;
+      margin: 0px auto;
+      position: relative;
+      z-index: 2;
+    }
+   
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
